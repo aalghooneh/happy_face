@@ -1,4 +1,5 @@
 from setuptools import setup
+#'happy_face=happy_face.happy_face:main'
 
 package_name = 'happy_face'
 
@@ -19,7 +20,7 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': ['happy_face=happy_face.happy_face:main'
+        'console_scripts': ['CLC_node=happy_face.closed_loop_controller:main',
         ],
     },
 )
